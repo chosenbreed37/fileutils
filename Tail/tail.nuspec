@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>functionalfirst.fileutils.tail</id>
+    <version>0.0.1</version>
+    <authors>Eric Lubisse</authors>
+    <owners>chosenbreed</owners>
+    <projectUrl>http://github.com/chosenbreed37/fileutils</projectUrl>
+    <license type="expression">Apache-2.0</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Initial version</releaseNotes>
+    <description>Simple utility to tail read a file</description>
+    <copyright>Copyright © 2021 Functional First</copyright>
+    <tags>tail file</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="System.Reactive" version="5.0.0" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.3" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
