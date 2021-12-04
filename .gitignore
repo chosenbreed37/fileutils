@@ -10,3 +10,4 @@
 /Tail.Tests/bin/Debug
 /Tail.Tests/obj/Debug
 /.vs/FileUtils/v16
+*.nupkg
